@@ -75,7 +75,7 @@ const ResumeForm = ({ onSubmit }) => {
       />
       {/*Edu*/}
       <textarea
-        name="Education"
+        name="education"
         placeholder="Education"
         value={formData.education}
         onChange={handleChange}

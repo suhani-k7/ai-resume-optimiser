@@ -1,12 +1,14 @@
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import AddResume from "./pages/addResume";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from './components/Header';
+import Home from "./pages/Home";
+import AddResume from "./pages/AddResume";
+import View from "./pages/View";
 
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/add-resume" element={<AddResume />} />
@@ -14,6 +16,6 @@ function App() {
       </Routes>
     </Router>
   );
-} 
+}
 
 export default App;

@@ -10,6 +10,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
+        
         <Route path="/" element={<Home />} />
         <Route path="/add-resume" element={<AddResume />} />
         <Route path="/view-resume" element={<View />} />

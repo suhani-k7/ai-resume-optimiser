@@ -9,7 +9,7 @@ const Header = () => {
       </h1>
       <nav className="flex space-x-6">
         <Link
-          to="/"
+          to="/home"
           className="text-gray-300 hover:text-white transition-colors duration-200 font-medium"
         >
           Home
